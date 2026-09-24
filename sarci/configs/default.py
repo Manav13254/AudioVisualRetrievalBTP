@@ -29,8 +29,8 @@ DEFAULTS = dict(
 
     # model
     embed_dim=512,  # must equal VisionEncoder.OUTPUT_DIM; see models/sarci.py
-    freeze_vision_backbone=True,
-    freeze_audio_backbone=True,
+    freeze_vision_backbone=False,
+    freeze_audio_backbone=False,
 
     # optimization
     lr=2e-4,          # paper Section IV-B: "initially set to 2e-4"
